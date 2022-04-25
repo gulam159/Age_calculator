@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1300&q=110");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h5{
+    text-align: center;
+
+}
+.contain {
+    min-width: 450px;
+
+}
+
+.contain * {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 30px;
+}
+
+.inputs-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 25px;
+    border-radius: 60px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 50px;
+}
+
+input,
+button {
+    height: 50px;
+    background-color: whitesmoke;
+    color: #20141408;
+    border-radius: 10px;
+}
+
+input {
+    width: 60%;
+    padding: 0 20px;
+    font-size: 14px;
+    color: black;
+    cursor: text
+}
+
+button {
+    width: 30%;
+    color: black;
+    cursor: pointer;
+}
+
+.outputs-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.outputs-wrapper div {
+    height: 100px;
+    width: 100px;
+    background-color: #eea7a76b;
+    border-radius: 52px;
+    color: black;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 500;
+}
